@@ -20,20 +20,22 @@ header>h2{
     background-color: white ;
     color: black;
     position:sticky;
-    border: 1px solid black;
+    border: 3px solid black;
     text-align: center;
     top: 300px;
+    
     
 }
 
 nav>a{
     display: inline-block;
     border: 2px solid black;
-    padding: 1px;
+    padding: 3px;
     margin: 10px;
-    background-color: blue;
+    background-color: rgb(48, 75, 226);
     color: white;
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
 }
 nav{
     position: fixed;
@@ -68,3 +70,15 @@ div>img{
 article>p{
     margin: 10px;
 }
+nav a[href="#"]{
+    background-color: green;
+}
+
+nav>h2{
+    background-color: white ;
+    color: black;
+    position:sticky;
+    border: 1px solid black;
+    text-align: center;
+    top: 300px;
+}    
