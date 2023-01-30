@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
@@ -42,7 +42,7 @@ nav{
     left: 80%;
     bottom: 93%;
 }
-section>img{
+div>img{
     display: none;
 }
 article{
@@ -81,4 +81,4 @@ nav>h2{
     border: 1px solid black;
     text-align: center;
     top: 300px;
-}    
+}     */
