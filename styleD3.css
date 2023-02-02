@@ -1,75 +1,105 @@
 *{
-    padding: 0%;
     margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
+    
+    
 }
 
-body{
-    background-image: url(./imgtask2/design1_image1.jpg);
+.banner{
+    border: 3px solid black;
+    height: 400px;
+    width: 1200px;
+    margin: 5px auto;
+    background-size: 100% 100%;
+    order: -2;
+    
+
+    animation: banner 5s infinite;
+}
+
+@keyframes banner{
+    0%,50%{
+        background-image: url(./imgtask2/design1_image1.jpg);
+    }
+    
+    55%,100%{
+        background-image: url(./imgtask2/design2_image1.jpg);
+    }
+
+}
+
+header{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    
 }
 
 #logo{
-    position: absolute;
-    left: 85%;
-    height: 200px;
-    width: 200px;
+    align-self: flex-end;
+    width: 150px;
+    order: 1;
+    margin-right: 30px;
 
 }
 
 #title{
-    position: absolute;
-    font-size: 100px;
-    left: 15%;
-    color: black;
-    text-shadow: 10px 10px 10px rgb(241, 214, 60);
+    font-size: 55px;
+    order: 0;
+    text-shadow: 3px 3px 1px black;
+    margin: 10px 30px 0px 30px;
+    color:  rgb(248, 225, 46);
     
 }
 
+.titulo_logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 140px;
+}
 
-nav{
-    position: absolute;
-    left: 20%;
-    top: 15%;
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    order: -1;
+    
     
 }
 
-nav>a{
-    border: 1px solid black;
-    padding: 15px;
+.nav>a{
+    border: 3px solid black;
     font-size: 25px;
-    margin: 100px;
+    padding: 3px;
     text-decoration: none;
+    background-color: rgb(248, 225, 46);
     color: black;
-    
+    margin: 10px 50px
+
 }
 
-a:hover{
-    background-color: rgb(241, 214, 60);
+section{
+    display: flex;
+    flex-direction: column;
 }
 
-div>img{
-    display: none;
+section>h2{
+    align-self: flex-start;
+    border: 3px solid black;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin: 25px 10px 10px 10px;
+    background-color:rgb(248, 225, 46) ;
 }
 
-header>h2{
-    position: absolute;
-    top: 25%;
-    border: 1px solid black;
-    font-size: 50px;
-    left: 3%;
-    text-shadow: 10px 10px 10px rgb(241, 214, 60);
-    
+.article_img{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
 }
 
 article{
-    position: absolute;
-    top: 40%;
-    left: 25%;
-    font-size: 30px;
-    color: white;
-    text-shadow: 3px 3px 5px black;
-}
-
-article>p{
-    margin: 20px;
+    margin: 10px;
+    font-size: 35px;
 }
