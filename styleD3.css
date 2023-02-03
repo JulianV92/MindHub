@@ -152,3 +152,31 @@ caption{
 h4,p{
     margin: 2px;
 }
+
+ol{
+    padding: 2%;
+}
+
+li{
+    margin: 20px;
+}
+
+#ol{
+    list-style-type:lower-alpha;
+}
+
+#li1{
+    list-style-type:circle;
+}
+
+.article_list{
+    font-size: 25px;
+}
+
+dd{
+    padding: 20px;
+}
+
+ul{
+    margin-left: 30px;
+}
