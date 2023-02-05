@@ -180,3 +180,16 @@ dd{
 ul{
     margin-left: 30px;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+input{
+    padding: 3px;
+    margin: 5px;
+}
+

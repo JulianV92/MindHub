@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./imgtask1/favicon.ico" />
+    <!-- <link rel="stylesheet" href="./styleD1.css"> -->
+    <!-- <link rel="stylesheet" href="./styleD2.css"> -->
+    <link rel="stylesheet" href="./styleD3.css" />
+    <title>Mighty Ducks</title>
+</head>
+
+<body>
+    <header>
+        <div class="banner"></div>
+        <div class="titulo_logo">
+            <img id="logo" src="./imgtask1/Logo_Mighty_ducks-01.png" alt="logo" width="100" />
+            <h1 id="title">Mighty Ducks Hockey League</h1>
+        </div>
+        <div class="nav">
+            <a href="./index.html">Home</a>
+            <a href="./About.html">About MDHL</a>
+            <a href="./contact.html">contact</a>
+            <a href="./Game_info.html">Game Info</a>
+            <a href="./rules.html">Rules</a>
+            <a href="#">Registration</a>
+        </div>
+    </header>
+    <form action="./show_data.html" method="get">
+        <fieldset>
+            <legend>Registration Form</legend>
+            <label>
+                <span>Player's First Name</span>
+                <input type="text" name="name">
+            </label>
+
+            <label>
+                <span>Last Name</span>
+                <input type="text" name="last name">
+            </label>
+            <br>
+            <label>
+                <span>Street Adress</span>
+                <input type="text" name="adress">
+            </label>
+            <br>
+            <label>
+                <span>City</span>
+                <input type="text" name="city" id="city">
+            </label>
+            <label>
+                <span>Zip Code</span>
+                <input type="text" name="zip code">
+            </label>
+            <br>
+            <label>
+                <span>Birth Date(mm/dd/yyyy)</span>
+                <input type="text" name="birth date">
+            </label>
+            <label>
+                <span>Gender</span>
+                <input type="radio" name="Gender" value="Male">
+                <span>Male</span>
+            </label>
+
+            <label>
+                <input type="radio" name="Gender" value="Female">
+                <span>Female</span>
+            </label>
+            <br>
+            <label>
+                <span>Grade</span>
+                <input type="radio" name="grade" value="Pre-School">
+                <span>Pre-School</span>
+                <input type="radio" name="grade" value="1st">
+                <span>1st</span>
+                <input type="radio" name="grade" value="2nd">
+                <span>2nd</span>
+                <input type="radio" name="grade" value="3rd">
+                <span>3rd</span>
+                <input type="radio" name="grade" value="4th">
+                <span>4th</span>
+                <input type="radio" name="grade" value="5th">
+                <span>5th</span>
+            </label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Which elementary school do you live near?</legend>
+            <label>
+                <span>Closest School</span>
+                <br>
+                <input type="radio" name="school" value="AJ Katzenmaier">
+                <span>AJ Katzenmaier</span>
+                <input type="radio" name="school" value="Marjorie P Hart">
+                <span>Marjorie P Hart</span>
+                <br>
+                <input type="radio" name="school" value="Greenbay">
+                <span>Greenbay</span>
+                <input type="radio" name="school" value="North Elementary">
+                <span>North Elementary</span>
+                <br>
+                <input type="radio" name="school" value="Howard A Yeager">
+                <span>Howard A Yeager</span>
+                <input type="radio" name="school" value="South Elementary">
+                <span>South Elementary</span>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>What position(s) do you normally play?(cheach all that apply)</legend>
+            <label>
+                <input type="checkbox" name="position" value="Forward">
+                <span>Forward</span>
+                <input type="checkbox" name="position" value="Midfield">
+                <span>Midfield</span>
+                <br>
+                <input type="checkbox" name="position" value="Defense">
+                <span>Defense</span>
+                <input type="checkbox" name="position" value="Goalkeeper">
+                <span>Goalkeeper</span>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Unifor Size</legend>
+            <label>
+                <input type="radio" name="Size" value="Youth Small">
+                <span>Youth Small</span>
+                <input type="radio" name="Size" value="Medium">
+                <span>Medium</span>
+                <br>
+                <input type="radio" name="Size" value="Youth Medium">
+                <span>Youth Medium</span>
+                <input type="radio" name="Size" value="Large">
+                <span>Large</span>
+                <br>
+                <input type="radio" name="Size" value="Youth Large">
+                <span>Youth Large</span>
+                <input type="radio" name="Size" value="Extra Large">
+                <span>Extra Large</span>
+                <br>
+                <input type="radio" name="Size" value="Small">
+                <span>Small</span>
+            </label>
+        </fieldset>
+
+
+
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>
