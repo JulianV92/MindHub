@@ -185,7 +185,7 @@ form{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: space-evenly;
+    align-content: center;
 }
 
 input{
