@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    background: url(./imgtask2/design1_image1.jpg) no-repeat center center;
+    height: 250px;
+}
+#logo{
+    position:absolute;
+    top: 200px;
+    left: 80%;
+    z-index: 1;
+}
+
+h2{
+    background-color: black;
+    color: white;
+    position:absolute;
+    top: 250px;
+    width: 100%;
+    display: inline-block;
+}
+nav>a{
+    display:block;
+    margin: 50px;
+}
+article{
+    display: inline-block;
+    position: relative;
+    bottom: 250px;
+    left: 200px;
+}
+article>h3{
+    margin: 20px;
+}
+#title{
+    font-size: 100px;
+    color: blue;
+}
